@@ -2,6 +2,15 @@
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+This Template include:
+    - TailwindCSS.
+    - I18n.
+    - NuxtImage.
+    - ColorMode.
+    - NuxtApollo.
+    - Pinia.
+    - Zod.
+
 ## Setup
 
 Make sure to install the dependencies:

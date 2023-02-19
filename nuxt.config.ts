@@ -11,6 +11,15 @@ export default defineNuxtConfig({
   ],
 
 
+  runtimeConfig: {
+    public: {
+      FIREBASE_KEY: process.env.FIREBASE_KEY,
+      AUTH_DOMAIN: process.env.AUTH_DOMAIN,
+      PROJECT_ID: process.env.PROJECT_ID,
+      APP_ID: process.env.APP_ID,
+    }
+  },
+
 
   i18n: {
     // add `vueI18n` option to `@nuxtjs/i18n` module options

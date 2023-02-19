@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full text-center flex">
+  <div class="w-full text-center flex" id="zod">
     <div class="mx-auto">
       <h1 class="text-xl">Zod: TypeScript-first schema validation</h1>
       <form @submit.prevent="submitForm">

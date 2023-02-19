@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center flex">
+  <div class="text-center flex" id="pinia">
     <div class="mx-auto">
       <h1 class="text-xl">Pinia for Store management</h1>
       <div>

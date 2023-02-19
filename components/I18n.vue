@@ -1,5 +1,5 @@
 <template>
-     <div class="w-full text-center flex">
+     <div class="w-full text-center flex" id="i18n">
       <div class="mx-auto">
         <h1 class="text-xl">i18n:</h1>
         <form class="mx-4">

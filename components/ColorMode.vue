@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center flex">
+  <div class="text-center flex" id="colormode">
     <div class="mx-auto">
       <h1 class="text-xl">Nuxt Color mode: {{ $colorMode.value }}</h1>
       <select v-model="$colorMode.preference" class="border rounded p-4">

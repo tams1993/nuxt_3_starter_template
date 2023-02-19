@@ -4,12 +4,13 @@
     <h1 class="text-2xl text-blue-500 text-center">Using:</h1>
     <ul class="list-disc text-center">
       <li>TailwindCSS</li>
-      <li>I18n</li>
-      <li>NuxtImage</li>
-      <li>ColorMode</li>
-      <li>NuxtApollo</li>
-      <li>Pinia</li>
-      <li>Zod</li>
+      <li class="cursor-pointer" @click="scrollToElement('i18n')">I18n</li>
+      <li class="cursor-pointer"  @click="scrollToElement('nuxtimage')">NuxtImage</li>
+      <li class="cursor-pointer" @click="scrollToElement('colormode')">ColorMode</li>
+      <li class="cursor-pointer" @click="scrollToElement('nuxtapollo')">NuxtApollo</li>
+      <li class="cursor-pointer" @click="scrollToElement('pinia')">Pinia</li>
+      <li class="cursor-pointer" @click="scrollToElement('zod')">Zod</li>
+      <li class="cursor-pointer" @click="scrollToElement('vuefire')">VueFire</li>
     </ul>
     <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
@@ -35,4 +36,14 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+const scrollToElement = async (element: string) => {
+  await nextTick();
+  window.scrollTo({
+    top: document?.getElementById(element)?.offsetTop,
+    left: 0,
+    behavior: "smooth",
+  });
+};
+</script>

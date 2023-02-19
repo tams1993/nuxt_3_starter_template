@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center flex">
+  <div class="text-center flex" id="nuxtapollo">
     <div class="mx-auto">
       <h1 class="text-xl">Nuxt Apollo: if data display below then it is work!</h1>
       <p>{{ apolloData }}</p>

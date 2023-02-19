@@ -1,5 +1,5 @@
 <template>
-     <div class="text-center flex">
+     <div class="text-center flex" id="nuxtimage">
       <div class="mx-auto">
         <h1 class="text-xl mx-4">Nuxt-image:</h1>
         <nuxt-img

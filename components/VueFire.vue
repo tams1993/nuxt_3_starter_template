@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center flex my-10">
+  <div class="text-center flex my-10"  id="vuefire">
     <div class="mx-auto">
       <h1 class="text-xl">
         VueFire CurrentUser:
